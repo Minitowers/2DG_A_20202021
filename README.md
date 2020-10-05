@@ -2,5 +2,5 @@
 # Sistemes de representació avançada
 
 ## p0
-[p0](index)
+[p0](index.html)
 
