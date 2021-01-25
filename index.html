@@ -1,9 +1,229 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<title>Sistemes de representació avançada 1</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistemes de Representació avançada_2DG</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    
+    <style type="text/css">
+        
+    /*reset*/
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+            img {
+            width: 100%;
+            height:auto; 
+        }
+        
+          a {
+            text-decoration: none;
+            text-transform: uppercase;
+        }
+         
+          body{
+            font-size: 18px;
+            font-family:'Roboto', sans-serif;
+             }
+
+       
+        header{
+            display: flex;
+            flex-direction: column;
+            justify-content:space-around;
+            background-color: #f2c2d8;
+            background-image:url(img/fonde%20header-1_Mesa%20de%20trabajo%201.png);
+            background-size:130%;
+            background-position: -40px -100px; 
+            height: 100vh;
+            width: 100%;
+            padding: 0 36px 0 36px;
+            font-size: 2vw;
+           
+        }
+        h1{
+            font font-size: 10vw;
+            line-height: -20vw;
+            text-align: center;
+            
+         
+            }
+        
+        h2{
+            font-size: 4vw;
+            font-weight: 500; 
+            text-align: center;
+          
+           
+        }
+        h3{
+            font-size: 2vw;
+            font-weight: 500;
+            text-align: center;
+            
+        }
+        nav{
+            position: sticky;
+            top: 0;
+            background color:#94aaff;
+            width: 100%;
+            height: 140px;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+          
+        }
+        nav a{
+            color:#94aaff;
+            font-size: 1.4em;
+            }
+                    
+         main {
+            background: #D96277;
+            padding: 3em 2em 2.5em 2em;
+            }
+        
+        section {
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            padding: 1em 1em 0 1em;
+            margin: 0 0 1.5em 0;
+            background-color: #d96277;
+        }
+
+        section figure {
+            height: 224px;
+            background: white;
+        }
+
+        section figure img {
+            height: 224px;
+            object-fit: cover;
+            object-position: bottom;
+            
+        }
+
+        section figcaption {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 3em;
+            background: #c3d9b8;
+         }
+        
+        footer{
+            display: flex;
+            height: 200px;
+            flex-direction: column;
+            justify-content: space-around;
+            align-items: center;
+            padding: 2em 2em 1em 2em;
+        }
+        footer a{
+            color: black;
+            
+        }
+        .xxss{
+            display: flex;
+            width: 100%;
+            justify-content: space-between;
+        }
+
+        section-findcaption
+        
+        
+    /* Extra small devices (phones, 600px and down) 
+@media only screen and (max-width: 600px) {
+  body {background: red;}
+
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  body {background: #D96277;}
+}
+        main{
+            background-color: black;
+        }
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  body {background: #F2C2D8;}
+
+} 
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  body {background: #C3D9B8;}
+} 
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  body {background: #E6D255;}
+    
+    
+}
+    
+    
+     </style>
 </head>
 <body>
-
-<h1>Sistemes de representació avançada_A</h1>
-<h2>Marina Torrecillas</h2>
+    <header>
+        <h1>SISTEMES<br>DE REPRESENTACIÓ AVANÇADA</h1>
+        <h2>Easdalcoi - 2n Disseny Gràfic</h2>
+        <h3>Marina Torrecillas</h3>
+        
+        
+    </header>
+    <nav>
+        <a href="#">projectes</a>
+        <a href="#">contacte</a>
+        
+    </nav>
+    <main>
+       <div class="grid-container">
+        <section>
+        <figure>
+            <img src="img/Captura%20de%20Pantalla%202020-11-11%20a%20les%208.35.12.png" alt="llocweb"></figure> 
+          <figcaption>    
+       
+            <h4>p0_llocweb</h4>
+            </figcaption>   
+        </section>
+        <section>
+        <figure>
+            <img src="img/frida.png" alt="Frida">
+           
+           
+        </figure>
+           <figcaption>
+            <h4>App</h4>
+            </figcaption>
+        </section>
+        <section>
+        <figure>
+             <img src="img/MIR%C3%93.png" alt="llocweb">
+        </figure>
+        <figcaption>
+            <h4>Biografía</h4>
+        </figcaption>
+    </section>
+    </div>
+    </main>
+    <footer>
+        <div class="xxss">
+    
+        <a href="#">twitter</a>
+        <a href="https://www.instagram.com/minitowers/">insta</a>
+        <a href="#">Behance</a>
+        </div> 
+        <div class="email"> 
+            <p><a href="mailto:torrecillagm@easdalcoi.es">:D</a></p>
+    </div>
+    </footer>
+    </body>
+    </html>
